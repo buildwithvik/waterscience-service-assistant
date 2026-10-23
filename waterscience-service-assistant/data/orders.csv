@@ -1,0 +1,41 @@
+order_id,product,amount_inr,city,placed_on,expected_delivery,status,courier
+WS100101,Washing Machine Filter,1515,Gurugram,2026-10-18,2026-10-21,delivered,Blue Dart
+WS100102,CLEO Shower & Tap Filter Borewell/Tanker,1420,Pune,2026-10-17,2026-10-20,delivered,Ecom Express
+WS100103,CLEO Shower & Tap Filter SFU-717,2180,Chennai,2026-10-21,2026-10-24,shipped,Delhivery
+WS100104,CLEO Replacement Cartridge (Pack of 2),1515,Gurugram,2026-10-15,2026-10-24,shipped,Delhivery
+WS100105,CLEO Shower & Tap Filter Borewell/Tanker,1420,Chennai,2026-10-08,2026-10-23,shipped,Xpressbees
+WS100106,CLEO Shower & Tap Filter SFU-717,2180,Mumbai,2026-10-19,2026-10-16,shipped,Xpressbees
+WS100107,CLEO Shower & Tap Filter SFU-717,2180,Gurugram,2026-10-07,2026-10-23,out_for_delivery,Xpressbees
+WS100108,CLEO Replacement Cartridge (Pack of 2),1515,Chennai,2026-10-15,2026-10-25,placed,
+WS100109,Compact Shower Filter,1752,Jaipur,2026-10-19,2026-10-23,placed,
+WS100110,Compact Shower Filter,1752,Mumbai,2026-10-07,2026-10-24,shipped,Blue Dart
+WS100111,Washing Machine Filter,1515,Hyderabad,2026-10-13,2026-10-16,delivered,Blue Dart
+WS100112,CLEO Shower & Tap Filter Borewell/Tanker,1420,Chennai,2026-10-07,2026-10-25,shipped,Xpressbees
+WS100113,CLEO Shower & Tap Filter SFU-717,2180,Gurugram,2026-10-14,2026-10-24,shipped,Delhivery
+WS100114,CLEO Shower & Tap Filter Borewell/Tanker,1420,Kochi,2026-10-03,2026-10-25,shipped,Ecom Express
+WS100115,Washing Machine Filter,1515,Chennai,2026-10-07,2026-10-23,shipped,Xpressbees
+WS100116,Washing Machine Filter,1515,Jaipur,2026-10-03,2026-10-09,delivered,Xpressbees
+WS100117,CLEO Shower & Tap Filter Borewell/Tanker,1420,Bengaluru,2026-10-17,2026-10-23,placed,
+WS100118,CLEO Shower & Tap Filter SFU-717,2180,Pune,2026-10-17,2026-10-15,shipped,Ecom Express
+WS100119,Multi-Flow Shower Filter,2655,Gurugram,2026-10-02,2026-10-08,delivered,Delhivery
+WS100120,Washing Machine Filter,1515,Mumbai,2026-10-18,2026-10-23,delivered,Delhivery
+WS100121,Compact Shower Filter,1752,Gurugram,2026-10-08,2026-10-23,out_for_delivery,Blue Dart
+WS100122,CLEO Replacement Cartridge (Pack of 2),1515,Chennai,2026-10-18,2026-10-23,delivered,Blue Dart
+WS100123,Compact Shower Filter,1752,Mumbai,2026-10-16,2026-10-19,delivered,Ecom Express
+WS100124,CLEO Shower & Tap Filter SFU-717,2180,Chennai,2026-10-18,2026-10-23,shipped,Delhivery
+WS100125,CLEO Shower & Tap Filter Borewell/Tanker,1420,Kochi,2026-10-03,2026-10-25,placed,
+WS100126,CLEO Shower & Tap Filter SFU-717,2180,Kochi,2026-10-04,2026-10-25,shipped,Blue Dart
+WS100127,Compact Shower Filter,1752,Chennai,2026-10-05,2026-10-25,shipped,Xpressbees
+WS100128,Multi-Flow Shower Filter,2655,Kochi,2026-10-10,2026-10-16,delivered,Delhivery
+WS100129,CLEO Shower & Tap Filter Borewell/Tanker,1420,Chennai,2026-10-14,2026-10-23,shipped,Blue Dart
+WS100130,CLEO Shower & Tap Filter SFU-717,2180,Bengaluru,2026-10-19,2026-10-18,shipped,Xpressbees
+WS100131,CLEO Shower & Tap Filter SFU-717,2180,Kochi,2026-10-05,2026-10-25,shipped,Blue Dart
+WS100132,CLEO Replacement Cartridge (Pack of 2),1515,Kochi,2026-10-17,2026-10-23,shipped,Ecom Express
+WS100133,CLEO Shower & Tap Filter Borewell/Tanker,1420,Jaipur,2026-10-18,2026-10-21,delivered,Xpressbees
+WS100134,Multi-Flow Shower Filter,2655,Bengaluru,2026-10-08,2026-10-14,delivered,Delhivery
+WS100135,CLEO Shower & Tap Filter SFU-717,2180,Chennai,2026-10-09,2026-10-23,placed,
+WS100136,CLEO Shower & Tap Filter Borewell/Tanker,1420,Hyderabad,2026-10-04,2026-10-24,shipped,Xpressbees
+WS100137,Multi-Flow Shower Filter,2655,Pune,2026-10-14,2026-10-25,out_for_delivery,Delhivery
+WS100138,Washing Machine Filter,1515,Hyderabad,2026-10-04,2026-10-23,placed,
+WS100139,Multi-Flow Shower Filter,2655,Bengaluru,2026-10-06,2026-10-24,shipped,Blue Dart
+WS100140,Multi-Flow Shower Filter,2655,Kochi,2026-10-21,2026-10-27,shipped,Xpressbees

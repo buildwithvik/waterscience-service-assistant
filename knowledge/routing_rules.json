@@ -1,0 +1,29 @@
+{
+  "_about": "Plain rules that decide what happens to each message AFTER the AI labels it. The AI never decides this itself. AUTO_SEND = reply goes out instantly. DRAFT = agent approves with one click. HUMAN = agent handles it; the bot only collects details. URGENT = human, top of the queue.",
+  "min_confidence_for_auto_send": 0.8,
+  "intents": {
+    "fit_compatibility":     { "route": "AUTO_SEND", "kb": ["KB-02", "KB-15"], "collect": [] },
+    "installation_help":     { "route": "AUTO_SEND", "kb": ["KB-03", "KB-04"], "collect": [] },
+    "low_flow_clogging":     { "route": "AUTO_SEND", "kb": ["KB-05", "KB-06"], "collect": [] },
+    "leak":                  { "route": "AUTO_SEND", "kb": ["KB-07"], "collect": [] },
+    "cartridge_question":    { "route": "AUTO_SEND", "kb": ["KB-08", "KB-09"], "collect": [] },
+    "effectiveness_tds":     { "route": "AUTO_SEND", "kb": ["KB-10"], "collect": [] },
+    "product_recommendation":{ "route": "AUTO_SEND", "kb": ["KB-15"], "collect": [] },
+    "order_status":          { "route": "AUTO_SEND", "kb": ["KB-14"], "collect": ["order_id"] },
+    "spare_part_request":    { "route": "DRAFT",     "kb": ["KB-16"], "collect": ["product", "part", "photo", "order_id"] },
+    "damaged_defective":     { "route": "HUMAN",     "kb": ["KB-11", "KB-12"], "collect": ["order_id", "purchase_channel", "product", "photo", "purchase_date"] },
+    "warranty_claim":        { "route": "HUMAN",     "kb": ["KB-12"], "collect": ["invoice", "purchase_channel", "product", "photo"] },
+    "return_refund":         { "route": "HUMAN",     "kb": ["KB-13"], "collect": ["order_id", "purchase_channel", "reason", "photo"] },
+    "escalation":            { "route": "URGENT",    "kb": ["KB-17"], "collect": [] },
+    "other":                 { "route": "DRAFT",     "kb": [], "collect": [] }
+  },
+  "force_urgent_keywords": ["consumer court", "legal notice", "lawyer", "police", "fraud", "cheat", "injury", "injured", "burst", "flooded", "flood", "refund my money"],
+  "force_draft_keywords": ["baby", "child", "kid", "year old", "pregnant", "allergy", "eczema", "rash", "doctor"],
+  "force_human_if": [
+    "AI confidence below min_confidence_for_auto_send",
+    "message has an [CONFLICT] fact in the answer (agent must confirm)",
+    "customer sentiment is angry",
+    "order is late by more than 3 days",
+    "order ID not found in orders.csv"
+  ]
+}
